@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/group_table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/group_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="group_title"
+            android:textSize="18.3dp" />
+
+        <ImageView
+            android:id="@+id/group_icon_image_view"
+            android:layout_width="20dp"
+            android:visibility="gone"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_keyboard_arrow_down_black_24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/coping_group_title_divider_line_color" />
+
+
+    <LinearLayout
+        android:id="@+id/info_table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <!--1단계에 따른 대처법-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_step_default_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/define_one_step"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="방어적 행동"
+                android:textSize="12dp" />
+
+            <!--방어적행동과 적극적행동의 구분선 -->
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/divider_line_color" />-->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="적극적 행동"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_step_bottom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="하\n(0 ~ 83.3)"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt_step_defense_bottom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 없음"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+
+
+            <TextView
+                android:id="@+id/txt_step_active_bottom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 없음"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_step_middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="중\n(83.4 ~ 166.6)"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt_step_defense_middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 없음"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+
+
+            <TextView
+                android:id="@+id/txt_step_active_middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 생활주변 모기유충 서식지 관찰"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_step_top"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="상\n(166.7 ~ 250)"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt_step_defense_top"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 모기 침입통로 보완\n- 창문과 문에 방충망 사용하기"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+
+
+            <TextView
+                android:id="@+id/txt_step_active_top"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:text="- 생활주변 모기유충 서식지 파악"
+                android:textSize="@dimen/defence_active_desc_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

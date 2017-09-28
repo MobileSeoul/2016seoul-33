@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/recycler_shopping_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/recycler_shopping_img"
+        android:layout_below="@+id/recycler_shopping_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recycler_shopping_title"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="title"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="최저가 "
+                android:textColor="@color/row_price_color"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/recycler_shopping_r_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="최고가 "
+                android:textColor="@color/high_price_color"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/recycler_shopping_h_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

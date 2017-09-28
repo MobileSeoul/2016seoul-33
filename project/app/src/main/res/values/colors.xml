@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="divider_line_color">#EAEAEA</color>
+    <color name="coping_group_title_divider_line_color">#BDBDBD</color>
+    <color name="row_price_color">#1266FF</color>
+    <color name="high_price_color">#CC3D3D</color>
+    <color name="white">#ffffff</color>
+</resources>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">모기예보</string>
+    <string name="public_data_auth_key">4a4d4e484172757a34347643595241</string>
+    <string name="default_params">/xml/MosquitoStatus/1/5/</string>
+    <string name="naver_client_id">3AlDhG0bEnNUiwevl9xH</string>
+    <string name="naver_client_secret">ZzA3epPNMt</string>
+
+    <string name= "step_info">- 1단계:쾌적단계 <![CDATA[<]]> 2단계:관심단계 <![CDATA[<]]> 3단계:주의단계 <![CDATA[<]]> 4단계:불쾌단계</string>
+
+    <!--1단계-->
+    <string name="define_one_step">- 지수범위 0~250\n- 야외에 모기활동이 거의 없음\n- 야외에 모기유충 서식지가 형성되지 않음</string>
+    <string name="define_one_step_bottom">0 ~ 83.3</string>
+    <string name="define_one_step_defense_bottom">- 없음</string>
+    <string name="define_one_step_active_bottom">- 없음</string>
+
+    <string name="define_one_step_middle">83.4 ~ 166.6</string>
+    <string name="define_one_step_defense_middle">- 없음</string>
+    <string name="define_one_step_active_middle">- 생활주변 모기유충 서식지 관찰</string>
+
+    <string name="define_one_step_top">166.6 ~ 250</string>
+    <string name="define_one_step_defense_top">- 모기 침입통로 보완\n- 창문과 문에 방충망 사용하기</string>
+    <string name="define_one_step_active_top">- 생활주변 모기유충 서식지 파악</string>
+    <!--1단계-->
+
+
+    <!--2단계-->
+    <string name="define_two_step">- 지수범위 250.1~500\n- 야외에 모기 유충 서식지가 20% 이내로 형성된 단계\n- 집안으로 침입은 없으나, 밖의 기온이 낮은 경우 집안으로 침입이 두드러지게 나타남\n- 야간 운동 후, 한곳에 정지 상태로 10~15분 이상 머물러 있는 경우\n- 간간히 1~2마리의 모기로부터 공격을 받을 수 있음</string>
+
+    <string name="define_two_step_bottom">250.1 ~ 333.3</string>
+    <string name="define_two_step_defense_bottom">- 늦은 시간 현관문 열어놓지 않기\n- 가급적 냉방기 사용</string>
+    <string name="define_two_step_active_bottom">- 모기유충 서식 관찰</string>
+
+    <string name="define_two_step_middle">333.4 ~ 416.6</string>
+    <string name="define_two_step_defense_middle">- 주택 내로 모기 침입 주의\n- 모기 침입통로 수리</string>
+    <string name="define_two_step_active_middle">- 생활주변 물이 고일 수 있는 인공용기 제거</string>
+
+    <string name="define_two_step_top">416.7 ~ 500</string>
+    <string name="define_two_step_defense_top">- 문과 창문 방충망 수리\n- 정화조의 금이나 틈새 수리하기</string>
+    <string name="define_two_step_active_top">- 제거 못한 인공용기 빗물 고임 차단</string>
+    <!--2단계-->
+
+
+    <!--3단계-->
+    <string name="define_three_step">- 지수범위 500.1~750\n- 야외에 모기 유충 서식지가 20~50% 범위로 형성된 단계\n- 단독주택 밀집 지역의 경우, 집안으로 침입하는 모기가 하룻밤에 2~4마리 정도 목격되며, 흡혈 공격도 두드러짐\n - 야간 운동 후, 한곳에 정지 상태로 10~15분 이상 머물러 있는 경우 3-4마리의 모기로부터 공격을 받을 수 있음</string>
+    <string name="define_three_step_bottom">500.1 ~ 583.3</string>
+    <string name="define_three_step_defense_bottom">- 단독주택 거주민 모기장 사용\n- 출입문과 창문을 열어 환기하는 것을 자제하고 냉방기 사용</string>
+    <string name="define_three_step_active_bottom">- 빗물 고인 곳 모기유충 서식차단</string>
+
+    <string name="define_three_step_middle">583.4 ~ 666.6</string>
+    <string name="define_three_step_defense_middle">- 주간 풀숲 근접지역 숲모기의 흡혈공격 주의\n- 야외활동시 가급적 긴팔과 긴바지, 양말 착용\n- 아기침대와 유모차, 아기 케리어에 모기장 사용</string>
+    <string name="define_three_step_active_middle">- 주 1회 화분, 양동이, 반려동물 식기 등에 고여있는 물을 비워내고 문질러 닦아 뒤집어 놓기\n- 옥상 등 빗물 받은 용기에 뚜껑 설치\n- 뚜껑이 없거나 물을 비워낼 수 없는 통은 모기가 통과할 수 없는 촘촘한 망으로 덮기</string>
+
+    <string name="define_three_step_top">666.7 ~ 750</string>
+    <string name="define_three_step_defense_top">- 오후 7시 이후 출입문, 창문(방충망 없는) 열어 놓지 않도록 주의\n- 아파트 거주민 모기장 사용</string>
+    <string name="define_three_step_active_top">- 생활주변 모기유충 방제\n- 야간에 활동 시 어린이는 모기기피제 (어린이 전용) 사용 (주의사항 반드시 확인)\n- 야외활동시 모기퇴치제 사용</string>
+    <!--3단계-->
+
+    <!--4단계-->
+    <string name="define_four_step">- 지수범위 750.1~1,000 \n- 야외에 모기 유충 서식지가 50~100% 범위로 형성된 단계\n- 단독주택 밀집지역의 경우, 집안으로 침입하는 모기가 하룻밤에 5~10마리정도 목격되며, 흡혈 공격이 빈번함\n- 야간 운동 후, 한곳에 정지상태로 10~15분 이상 머물러 있는 경우 5마리 이상 모기로부터 공격을 받을 수 있음</string>
+    <string name="define_four_step_bottom">750.1 ~ 833.3</string>
+    <string name="define_four_step_defense_bottom">- 어린이 야간활동 자제\n- 취침 시 반드시 모기장 사용</string>
+    <string name="define_four_step_active_bottom">- 어른도 야간활동 시 기피제 사용\n- 출입문 주변이나 밖 벽면에 가정용 살충제 처리</string>
+
+    <string name="define_four_step_middle">833.4 ~ 916.6</string>
+    <string name="define_four_step_defense_middle">- 야외 활동 자제\n- 숲 가까이 활동 시 숲모기의 흡혈공격 주의</string>
+    <string name="define_four_step_active_middle">- 생활주변 소형 모기 발생원 적극적 제거, 하룻밤 주택내 모기 5마리 이상 침입 시 관할보건소 모기조사 신고\n- 취침 2시간 전 전자모기향 사용, 취침 시 모기향 꺼짐을 확인하고 환기 후 취침</string>
+
+    <string name="define_four_step_top">916.7 ~</string>
+    <string name="define_four_step_defense_top">- 오후 6시 이후 출입문, 창문(방충망 없는) 열어 놓지 않도록 주의\n- 야외 활동 후 바로 샤워 실시</string>
+    <string name="define_four_step_active_top">- 생활주변 물이 고인 곳에 모기유충 서식을 확인하고 관할보건소 방역기동반에 적극적으로 신고</string>
+    <!--4단계-->
+
+
+    <!--화면 꼬리표들-->
+    <string name="today_mf_fragment">오늘의모기예보화면</string>
+    <string name="coping_fragment">단계별대처법화면</string>
+    <string name="naver_search_link">http://m.shopping.naver.com/search/all.nhn?query=</string>
+
+    <string-array name="search_voca">
+        <item>모기약</item>
+        <item>버물리</item>
+        <item>모기밴드</item>
+        <item>에프킬라</item>
+        <item>살충제</item>
+        <item>모기향</item>
+        <item>모기퇴치</item>
+        <item>포충기</item>
+        <item>블랙홀</item>
+    </string-array>
+</resources>

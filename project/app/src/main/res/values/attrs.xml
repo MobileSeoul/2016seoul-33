@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="copingItem">
+        <attr name="coping_group_title_txt" format="reference|string" />
+        <attr name="coping_group_title_icon" format="reference|integer" />
+        <attr name="coping_default_info_txt" format="reference|string" />
+        <attr name="coping_step_defense_bottom_txt" format="reference|string" />
+        <attr name="coping_step_active_bottom_txt" format="reference|string" />
+        <attr name="coping_step_defense_top_txt" format="reference|string" />
+        <attr name="coping_step_active_top_txt" format="reference|string" />
+        <attr name="coping_step_defense_middle_txt" format="reference|string" />
+        <attr name="coping_step_active_middle_txt" format="reference|string" />
+        <attr name="coping_step_info_showing" format="reference|boolean" />
+    </declare-styleable>
+</resources>
